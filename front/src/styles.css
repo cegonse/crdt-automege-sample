@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.node {
+  background-color: #E8EEF2;
+  height: 100px;
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.nodeItem {
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 8px;
+}
+
+.cursorTooltip {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+}
+
+.cursorUserId {
+  padding: 6px;
+  font-size: small;
+  height: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  position: absolute;
+  left: 8px;
+  top: 20px;
+}
+
+.cursor {
+  width: 16px;
+  height: 24px;
+  position: absolute;
+  z-index: 100;
+}
